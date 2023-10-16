@@ -79,7 +79,7 @@ namespace Appointment.Controllers
             }
             catch (Exception ex)
             {
-
+                 
             }
             return null;
         }
