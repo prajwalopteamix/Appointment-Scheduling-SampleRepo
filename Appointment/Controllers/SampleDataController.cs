@@ -84,7 +84,7 @@ namespace Appointment.Controllers
             return null;
         }
 
-        //Updating the details.
+        //Updating the details yes.
         [HttpPost("[action]")]
         public async Task<ActionResult<int>> UpdateTodoItem([FromBody] Entities.Appointment item)
         {
